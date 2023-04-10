@@ -22,7 +22,7 @@
 
 ## 04) O que é um objeto em POO?
 ~~a) Um conjunto de variáveis globais~~  
-**b) Uma estrutura de dados que contém propriedades e método**
+**b) Uma estrutura de dados que contém propriedades e método**  
 ~~c) Uma função que retorna um valor~~  
 ~~d) Uma classe abstrata~~  
 
