@@ -31,14 +31,14 @@ Logo, teremos que:
 `(2 < 5)` resultará no valor booleano `true`, pois 2 é de fato menor que 5  
 `(3 > 1)` resultará no valor booleano `true`, pois 3 é de fato maior que 1
 
-Em seguida, será a vez da negação ser executada, fazendo com que o true que resulta de `(2 < 5)` se torne `false`.  
+Em seguida, será a vez da negação ser executada, fazendo com que o `true` que resulta de `(2 < 5)` se torne `false`.  
 Por fim, o que resta será a expressão `false || true`, que **resulta em `true`**.
 
 ## 7) Qual o valor de z após a execução da expressão `z ?? 10`?
 
 O operador ?? fará com que o valor de z seja checado.  
 
-Caso z não seja null, a expressão **resulta no valor de z, do contrário resultará em 10.**
+**Caso z não seja null, a expressão resulta no valor de z, do contrário resultará em 10.**
 
 ## 8) Qual o resultado da expressão `2 + 2 == 4 && 3 + 3 == 6`?
 
