@@ -45,7 +45,7 @@
 ~~d) A capacidade de reutilizar código de uma classe existente em uma nova classe~~  
 
 ## 08) O que é uma interface em POO?
-**a) Um conjunto de métodos e propriedades que uma classe deve implementar**
+**a) Um conjunto de métodos e propriedades que uma classe deve implementar**  
 ~~b) Um tipo especial de classe abstrata~~  
 ~~c) Um tipo de classe que pode ser instanciado diretamente~~  
 ~~d) Uma forma de criar objetos sem usar classes~~  
