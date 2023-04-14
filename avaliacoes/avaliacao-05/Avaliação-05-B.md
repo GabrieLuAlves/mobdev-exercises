@@ -3,11 +3,11 @@
 
 ## 01) O que é Fluxo de Controle em Dart?
 
-Fluxo de Controle é 
+Fluxo de Controle em Dart é, basicamente, a ordem na qual as instruções são executadas em um programa feito em Dart. Essa ordem pode ser manipulada por meio dos comandos de controle de fluxo.
 
 ## 02) Quais são as três estruturas básicas de Fluxo de Controle em Dart?
 
-if, if-else e switch.
+Estrutura de decisão (como as estruturas if, if-else e switch), estrutura de loop (como as estruturas while e for) e estrutura de pulo (como break e continue).
 
 ## 03) O que é uma instrução if em Dart?
 
@@ -49,7 +49,7 @@ else {
 }
 ```
 
-Exemplo:  
+Exemplo de programa que usa if-else:  
 
 ```dart
 void main() {
@@ -374,7 +374,7 @@ void main() {
   }
   on UnsupportedError catch(e) {
     print("Não pode haver uma divisão por zero");
-    print(e);
+    print("Detalhes: $e");
   }
   
 }
@@ -383,6 +383,19 @@ void main() {
 
 ## 19) O que é uma instrução finally em Dart?
 
-A instrução finally faz com que um bloco de código seja executado depois de cada exceção tratada.
+A instrução finally faz com que um bloco de código seja executado depois do bloco try-catch tendo uma exceção sido levantada ou não. Nesse bloco se põe instruções que encerram a ação que começou no bloco `try` como, por exemplo, fechar uma conexão que foi aberta dentro do `try`. É importante notar que esse bloco será executado mesmo que haja um `return` no bloco do `try`.
 
 ## 20) Como usar a instrução finally em Dart?
+
+Para que haja um `finally` deve haver um try antes. Conforme a sintaxe mostrada a seguir:
+
+```dart
+
+try {
+  // código
+}
+finally {
+  // código a ser executado depois do try ou catch
+}
+
+```
