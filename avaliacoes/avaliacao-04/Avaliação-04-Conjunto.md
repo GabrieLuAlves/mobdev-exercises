@@ -12,6 +12,19 @@ Set conjuntoVazio = {};
 
 ```
 
+Mas caso seja necessário definir um conjunto vazio, as chaves não bastarão pois por padrão serã considerado um mapa vazio. Nesse caso, deve-se especificar o tipo usando `<>` com o tipo de dado que o conjunto armazena.
+
+Exemplo:
+
+```dart
+
+void main() {
+  print({} is Set);           // Isso não é um conjunto.
+  print(<dynamic> {} is Set); // Isso é.
+}
+
+```
+
 ## 03) Como criar um conjunto com elementos em Dart?
 
 A seguir é criado um conjunto com os números 1, 2, 3, 4 e 5
